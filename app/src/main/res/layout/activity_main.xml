@@ -64,6 +64,7 @@
         android:layout_gravity="end"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="30dp"
+        android:clickable="true"
         android:text="@string/txt_forgot_pass"
         android:textColor="@color/black"
         android:textSize="18sp" />
@@ -75,6 +76,7 @@
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="50dp"
         android:background="@drawable/bg_login"
+        android:clickable="true"
         android:gravity="center"
         android:padding="10dp"
         android:text="@string/txt_login"
@@ -99,6 +101,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
+            android:clickable="true"
             android:text="@string/txt_register"
             android:textColor="@color/orange"
             android:textSize="14sp"
